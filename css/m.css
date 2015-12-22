@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) {
+  .main-header img {
+    width: 100%;
+    height: auto; }
+  .main-header address {
+    text-align: right; }
+
+  nav {
+    margin: 15px 0;
+    text-align: right; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li:after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: #000000;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px; }
+      nav ul li:last-child {
+        margin-right: 5px; }
+      nav ul li:last-child::after {
+        display: none; }
+
+  .Our-Approch li .wrap-img img {
+    width: 100%;
+    height: auto; }
+  .Our-Approch li .wrap-stage {
+    padding: 20px 20px 20px 50px; }
+  .Our-Approch li .number-stage {
+    top: 50%;
+    margin-top: -50px;
+    left: 0;
+    margin-left: -80px; } }
+@media only screen and (min-width: 992px) {
+  .main-header img {
+    width: 242px;
+    height: 51px; }
+
+  nav {
+    margin: 20px 0; }
+
+  .welcome {
+    padding: 150px 0; }
+
+  .Our-Approch li .wrap-stage {
+    padding: 80px 20px 50px 50px; } }
+
+/*# sourceMappingURL=m.css.map */
