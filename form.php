@@ -14,15 +14,15 @@
 <br/>
 
 <?php
-    echo "ваше имя: ".$_GET['name'];
+    echo "ваше имя: ".$_POST['name'];
 ?>
 <br/>
 <?php
-    echo "ваш телефон: ".$_GET['phone'];
+    echo "ваш телефон: ".$_POST['phone'];
 ?>
 <br/>
 <?php
-    echo "название вашей компании: ".$_GET['company-name'];
+    echo "название вашей компании: ".$_POST['company-name'];
 ?>
 
 
